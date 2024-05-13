@@ -14,5 +14,5 @@ jobs:
     - name: Build with Maven
       run: mvn -B install --file pom.xml
     - name: Update README
-      run: echo "Build Status:Success" > README.md
+      run: echo "Build Status:Success" > $GITHUB_WORKSPACE/../README.md
 
