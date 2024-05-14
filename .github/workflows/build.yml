@@ -23,3 +23,6 @@ jobs:
         git add README.md
         git commit -m "Update README with build status"
         git push
+    - name: Coveralls
+      run:
+        mvn -B coveralls:report --define repoToken=${{ secrets.COVERALLS_TOKEN }}
