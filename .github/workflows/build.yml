@@ -18,7 +18,8 @@ jobs:
       run: |
         git config --global user.email "caterina.vallotto@studenti.unipd.it"
         git config --global user.name "cvallott"
-        echo "\nBuild status: ${{ job.status }}" >> README.md
+        echo "" >> README.md
+        echo "Build status: ${{ job.status }}" >> README.md
         git add README.md
         git commit -m "Update README with build status"
         git push
