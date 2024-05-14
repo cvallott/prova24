@@ -14,3 +14,5 @@ Build status: success
 Build status: success
 
 Build status: success
+
+Build status: cancelled
