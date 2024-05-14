@@ -16,14 +16,10 @@ jobs:
     - name: Update README
       if: always()
       run: |
-        echo "Build status: ${{ job.status }}" >> ${{ github.workspace }}/README.md
-    #- name: Commit and push changes
-    #  if: always()
-    #  run: |
-    #    git config --global user.email "caterina.vallotto@studenti.unipd.it"
-    #    git config --global user.name "cvallott"
-    #    git add README.md
-    #    git commit -m "Update README with build status"
-    #    git push
-
+        git config --global user.email "caterina.vallotto@studenti.unipd.it"
+        git config --global user.name "cvallott"
+        echo "Build status: ${{ job.status }}" >> README.md
+        git add README.md
+        git commit -m "Update README with build status"
+        git push
 
