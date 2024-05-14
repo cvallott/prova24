@@ -6,3 +6,5 @@ Build status: success
 \nBuild status: success
 
 Build status: success
+
+Build status: success
