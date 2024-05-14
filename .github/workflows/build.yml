@@ -16,6 +16,6 @@ jobs:
     - name: Update README
       if: always()
       run: |
-        echo "Build status: ${{ job.status }}" > prova24/README.md
+        echo "Build status: ${{ job.status }}" > ${{ github.workspace }}/README.md
 
 
