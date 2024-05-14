@@ -23,4 +23,3 @@ jobs:
         git add README.md
         git commit -m "Update README with build status"
         git push
-
