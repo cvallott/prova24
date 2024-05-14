@@ -3,3 +3,4 @@
 readme file
 Build status: cancelled
 Build status: success
+\nBuild status: success
