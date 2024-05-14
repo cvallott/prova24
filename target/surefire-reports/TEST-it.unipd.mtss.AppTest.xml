@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.AppTest" time="0.2" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.AppTest" time="0.223" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\cater\prova16\target\test-classes;C:\Users\cater\prova16\target\classes;C:\Users\cater\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\cater\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\cater\prova2\target\test-classes;C:\Users\cater\prova2\target\classes;C:\Users\cater\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\cater\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Temurin"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="IT"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\cater\AppData\Local\Temp\surefire4827044931563381005\surefirebooter7237835967463201063.jar C:\Users\cater\AppData\Local\Temp\surefire4827044931563381005 2024-05-13T20-59-16_827-jvmRun1 surefire3744798545437879673tmp surefire_01557316726043326273tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\cater\prova16\target\test-classes;C:\Users\cater\prova16\target\classes;C:\Users\cater\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\cater\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.java.command" value="C:\Users\cater\AppData\Local\Temp\surefire5299414297003903525\surefirebooter5218159264954706102.jar C:\Users\cater\AppData\Local\Temp\surefire5299414297003903525 2024-05-14T16-46-08_803-jvmRun1 surefire4689269891568480036tmp surefire_03814224719464030753tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\cater\prova2\target\test-classes;C:\Users\cater\prova2\target\classes;C:\Users\cater\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\cater\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\cater"/>
     <property name="user.language" value="it"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre"/>
-    <property name="basedir" value="C:\Users\cater\prova16"/>
+    <property name="basedir" value="C:\Users\cater\prova2"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\cater\AppData\Local\Temp\surefire4827044931563381005\surefirebooter7237835967463201063.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cater\AppData\Local\Temp\surefire5299414297003903525\surefirebooter5218159264954706102.jar;C:\\Users\\cater\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.8\\org.jacoco.agent-0.8.8-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\cater\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_412"/>
-    <property name="user.dir" value="C:\Users\cater\prova16"/>
+    <property name="user.dir" value="C:\Users\cater\prova2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,5 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="it.unipd.mtss.AppTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="it.unipd.mtss.AppTest" time="0.006"/>
 </testsuite>
